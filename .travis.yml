@@ -13,4 +13,4 @@ script:
   - docker run -e CI=true zkslqkfo/docker-react-app npm run test -- --coverage
 
 after_success:
-  - echo "Test success1"
+  - echo "Test success"
